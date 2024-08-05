@@ -110,6 +110,7 @@ class Object{
 
         //copy constructor
         Object(const Object& other){ //pass in a reference to the object that is being copied
+            std::cout << "allocating memory for a new integer" << std::endl;
             data = new int(*other.data); //set the data of the new object to equal the value of the other data
         }
 
@@ -123,6 +124,7 @@ class Object{
 
         //move constructor
         Object(Object&& other) noexcept : data(other.data){ 
+            std::cout << "allocating memory for a new integer" << std::endl;
             other.data = nullptr;
         }
 
