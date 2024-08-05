@@ -62,3 +62,13 @@ int main(){
 
     return 0;
 }
+
+/*
+Console output:
+
+Animal's age: 4
+nom nom nom, I love dog food!
+generating body heat...
+woof woof
+
+*/
