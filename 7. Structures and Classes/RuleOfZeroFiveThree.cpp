@@ -213,6 +213,7 @@ Data: 0
 Data: 42
 
 test of copy constructor
+allocating memory for a new integer
 Data: 21
 Data: 42
 
@@ -222,20 +223,21 @@ Data: 11
 Data: 42
 
 test of move constructor
-Memory Address of Data: 0x65a510
+Memory Address of Data: 0x6e1910
 Data: 21
-Memory Address of Data: 0x65a510
+allocating memory for a new integer
+Memory Address of Data: 0x6e1910
 Data: 21
 
 test of move assignment operator
 allocating memory for a new integer
-Memory Address of Data: 0x660660
+Memory Address of Data: 0x6db1c0
 Data: 0
-Memory Address of Data: 0x65a510
+Memory Address of Data: 0x6e1910
 Data: 21
 after move
 Memory Address of Data: 0
-Memory Address of Data: 0x65a510
+Memory Address of Data: 0x6e1910
 Data: 21
 deallocating memory for this object's integer
 deallocating memory for this object's integer
